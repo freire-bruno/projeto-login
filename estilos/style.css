@@ -8,7 +8,7 @@
 }
 
 body, html {
-    background-color: #1c723d9d;
+    background-color: #4e9c6c9d;
     height: 100vh;
     width: 100vw;
     
@@ -48,7 +48,7 @@ section#login > div#imagem {
 
 section#login > div#formulario {
     display: block;
-    padding: 10px;
+    padding: 5px;
     
 }
 
@@ -58,5 +58,60 @@ div#formulario > h1 {
 }
 
 div#formulario > p {
+    font-size: 0.8em;
+}
+
+form > div.campo {
+    background-color: #da594b;
+    display: block;
+    width: 100%;
+    height: 37px;
+    border-radius: 5px;
+    margin: 3px 0px;
+    
+}
+
+div.campo > label {
+    display: none;
+}
+
+.entrar {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #e44331e0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.entrar:hover {
+    background-color: #94281ce0;
+    cursor: pointer;
+}
+
+a.botao {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    padding-top: 7px;
+    margin-top: 5px;
+    background-color: white;
+    color: #e44331e0;
+    border: 1px solid #e44331e0;
+    border-radius: 5px;
+    text-decoration: none;
+
+}
+
+a.botao:hover {
+    background-color: #ec877ce0;
+}
+
+a.botao > span {
     font-size: 0.8em;
 }
