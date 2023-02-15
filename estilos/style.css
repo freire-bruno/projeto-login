@@ -47,8 +47,9 @@ section#login > div#imagem {
 }
 
 section#login > div#formulario {
-    padding: 10px;
     display: block;
+    padding: 10px;
+    
 }
 
 div#formulario > h1 {
